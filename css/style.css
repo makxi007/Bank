@@ -6,15 +6,17 @@
 
 body{
     width:1024px;
-} 
+}
 
 .upper{
     display:flex;
     margin-bottom:22px;
+    justify-content: flex-start;    
 }
 
 .logo{
     display:flex;
+    float: left;
 }
 
 .title{
@@ -106,7 +108,7 @@ body{
     margin: 0;
     margin-bottom: 40px;
     display:flex;
-    
+
 }
 
 .row{
@@ -115,17 +117,17 @@ body{
     margin-top:20px;
     width: 100%;
     float:left;
-    
+
 }
 
 .col-75{
     width:75%;
-  
-    
+
+
 }
 
 .col-50{
-    width:50%;
+    width:  50%;
     display: flex;
     flex-direction: row;
 }
@@ -143,7 +145,7 @@ body{
 
 .span_text_range{
     display: inline-flex;
-    
+
 }
 
 .span_text_range span:first-child{
@@ -155,7 +157,7 @@ body{
 }
 
 .calc_input{
-    width:90px;
+    width:120px;
     height: 22px;
 }
 
@@ -179,6 +181,8 @@ body{
     margin:0;
     text-decoration: underline;
 }
+
+
 
 /*---------------INPUT RANGE-----------------*/
 
@@ -207,7 +211,7 @@ input[type=range]::-webkit-slider-thumb{
 }
 
 input[type="range"]::-webkit-progress-value {
-    background-color: green; 
+    background-color: green;
     height:4px;
     border-radius:10px;
 }
@@ -225,7 +229,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 input[type="range"]::-moz-range-progress {
-    background-color: green; 
+    background-color: green;
     height:4px;
     border-radius:10px;
 

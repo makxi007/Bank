@@ -1,10 +1,13 @@
 
 
 $(document).ready(function(){
+
+	// changing second range
 	$("#range2").change(function(){
 		$("#fifth").val($(this).val());
 	});
 
+	// changing first range
 	$("#range1").change(function(){
 		$("#second").val($(this).val());
 	});

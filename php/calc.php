@@ -32,7 +32,8 @@
 			}
 			$daysy = $summa;
 			$deposit_amount = (int)$deposit_amount;
-			$summn = $deposit_amount + ($deposit_amount)*$daysn*(10/$daysy);
+			$percentage_rate = 10;
+			$summn = $deposit_amount + ($deposit_amount)*$daysn*($percentage_rate/$daysy);
 			echo $summn;
 		}
 
