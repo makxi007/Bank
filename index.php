@@ -2,6 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">    
+    
     <title>bank</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -54,7 +58,7 @@
                     <form action="php/calc.php" class="calc_form" method="POST" id="form_id">
                         <div class="left_side">
 
-                        <!-- дата оформления вклада -->
+                        <!-- ДАТА ОФОРМЛЕНИЯ ВКЛАДА -->
                         <div class="row">
                             <div class="col-50">
                                 <div class="col-50">

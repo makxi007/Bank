@@ -21,11 +21,12 @@ $(document).ready(function(){
 	});
 
 	$('form').on("submit", function(){
-
 		$.ajax({
+		//type:$(this).attr("method"),
+		type: "POST",
+		url: "index.php",
+		dataType: "json",
 		data:$(this).serialize(),
-		type:$(this).attr("method"),
-		url: "php/calc.php",
 		
 		success:function(data){
 			$("#result").html(data);
@@ -33,10 +34,11 @@ $(document).ready(function(){
 		error:function(errorData){console.log(errorData);}
 	});
 		$("#result").html("error");
-
 		
 	});
-	
-	
-
 });
+
+
+
+
+
